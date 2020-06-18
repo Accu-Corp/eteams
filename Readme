@@ -1,0 +1,5 @@
+Accusilicon针对Huawei要求，对eteams web的C端修改
+
+使用Chrome浏览器
+scripts配合TamperMonkey使用，直接通过git地址安装
+styles配合Stylus使用，需要下载到本地，通过Stylus菜单import
