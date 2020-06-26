@@ -1,1 +1,26 @@
-[{"method":"saveStyle","name":"eteams","enabled":true,"sections":[{"urls":[],"urlPrefixes":["https://www.eteams.cn","http://www.eteams.cn","http://eteams.cn","https://eteams.cn"],"domains":[],"regexps":[],"code":"/*\n* 禁用删除线\n*/\n\n.option-line {\n    color: #999;\n    font-style: italic;\n    text-decoration: none;\n}\n\n .finished-line {\n    text-decoration: none;\n    color: #999!important\n}\n\n.td-lt {\n    text-decoration: none!important\n}\n\n.e-list .finished-line .text {\n    text-decoration: none\n}\n\n.entity-item a.finished {\n    text-decoration: none;\n    color: #999\n}\n\ntextarea.finished-line {\n    text-decoration: none;\n    color: gray\n}\n\n.workflow-list .finished-line>span {\n    text-decoration: none;\n    font-size: 14px\n}\n\n.fs-finished-line{\n    text-decoration: none!important;\n    color: #999!important;\n}\n\n.workflow-list .finished-line {\n    text-decoration: none;\n}\n\n\n/*\n* 隐藏所有document-summary，无论有没有内容\n* 改为js脚本实现\n*/\n/* iframe.document-summary {\n    display: none;\n} */"}],"updateUrl":null,"md5Url":null,"url":null,"originalMd5":null,"id":1}]
+[
+	{
+		"method": "saveStyle",
+		"name": "eteams",
+		"enabled": true,
+		"sections": [
+			{
+				"code": "/*\n* 禁用删除线\n*/\n\n.option-line, .finished-line, .e-list .finished-line .text, .entity-item a.finished, textarea.finished-line, .workflow-list .finished-line>span, .workflow-list .finished-line {\n    text-decoration: none;\n}\n\n.td-lt, .fs-finished-line {\n    text-decoration: none!important\n}\n\n\n/*\n* 隐藏所有document-summary，无论有没有内容\n* 改为js脚本实现\n*/\n/* iframe.document-summary {\n    display: none;\n} */",
+				"urlPrefixes": [
+					"https://www.eteams.cn",
+					"http://www.eteams.cn",
+					"http://eteams.cn",
+					"https://eteams.cn"
+				]
+			}
+		],
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"id": 1,
+		"_id": "df3bc9bb-6892-4a1d-b733-9129dc26bd7b",
+		"_rev": 1593182949803,
+		"updateDate": 1593182693650
+	}
+]
